@@ -46,7 +46,7 @@ window.onload = function() {
       document.querySelector("#dominios").innerHTML = domains.join("<br>");    
     }
     const inputNoun = document.getElementById('noun');
-    const inputValornoun = inputPronoun.value.trim();
+    const inputValornoun = inputNoun.value.trim();
     if (inputValornoun != "") {
       
       noun.push(inputValornoun);
