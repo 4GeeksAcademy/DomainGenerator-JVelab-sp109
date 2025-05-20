@@ -28,28 +28,28 @@ window.onload = function() {
 
   window.agregarValor = function () {
     const inputPronoun = document.getElementById('pronoun');
-    const inputValorpronoun = inputPronoun.value.trim();
-    if (inputValorpronoun != "") {
+    const inputValorPronoun = inputPronoun.value.trim();
+    if (inputValorPronoun != "") {
       
-      pronoun.push(inputValorpronoun);
+      pronoun.push(inputValorPronoun);
       inputPronoun.value = ''; // Limpiar input
       generateAllDomains()
       document.querySelector("#dominios").innerHTML = domains.join("<br>");    
     }
   const inputAdjetive = document.getElementById('adjetive');
-  const inputValoradjetive = inputAdjetive.value.trim();
-  if (inputValoradjetive != "") {
+  const inputValorAdjetive = inputAdjetive.value.trim();
+  if (inputValorAdjetive != "") {
       
-      adj.push(inputValoradjetive);
+      adj.push(inputValorAdjetive);
       inputAdjetive.value = ''; // Limpiar input
       generateAllDomains()
       document.querySelector("#dominios").innerHTML = domains.join("<br>");    
     }
     const inputNoun = document.getElementById('noun');
-    const inputValornoun = inputNoun.value.trim();
-    if (inputValornoun != "") {
+    const inputValorNoun = inputNoun.value.trim();
+    if (inputValorNoun != "") {
       
-      noun.push(inputValornoun);
+      noun.push(inputValorNoun);
       inputNoun.value = ''; // Limpiar input
       generateAllDomains()
       document.querySelector("#dominios").innerHTML = domains.join("<br>");    
